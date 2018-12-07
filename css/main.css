@@ -45,5 +45,23 @@ ul.posts li {
 .blurb{
     margin:  20px auto 40px;
     text-align: center;
+	overflow: hidden;
 
+}
+.pContents{
+	font-size: 10;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	
+}
+.pLContainer{
+	font-family:'Helvetica', 'Arial', 'Sans-Serif';
+	background: #071B7C;
+	text-decoration-color: aliceblue;
+	width: 50%;
+	color: white;
+	border-radius: 25px;
+	text-align: center;
+	height: 200px;
+	overflow: scroll;
+	
 }
