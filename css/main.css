@@ -51,6 +51,7 @@ ul.posts li {
 .pContents{
 	font-size: 10;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	overflow: scroll;
 	
 }
 .pLContainer{
