@@ -9,25 +9,51 @@
 <nav>
   <ul>
     <li><a href="/">Home</a></li>
-    <li><a target="#abt">About</a></li>
+    <li><a href="#abt" class="abt">About</a></li>
     <li><a href="/cv">CV</a></li>
     <li><a href="/blog">Blog</a></li>
   </ul>
 </nav>
-<div class="container">
-  <div class="blurb">
+	<div class="blurb">
     <h1>Rahul Vatsa</h1>
     <p id="abt">I am a software engineer. I have been working on both backend and frontend technologies.I am a full stack developer. I have  worked on various mid-sized and large  applications and data engineering. </p>
   </div>
+<div class="container">
+  <div class="pRow">
 	<div class="pLContainer">
-		<div class="project">
 			<h3> Meru - A Web Scarping Framework</h3>
 			<div class="pContents">
-				It is a framework that consumes a job. (A job in this project is webpage scrapping task /API hit/bing/google search.etc ) 
+				It is a framework that consumes a job. (A job in this project is webpage scrapping task /API hit/bing/google search.etc) Makes a HTTP call to the respective source and then depending on the kind of job use css selectors, populating Models, basic data validations,etc.
+			</div>
+	</div>
+	
+		<div class="pRContainer">
+		  <h3> GCP Migeration</h3>
+		  <div class="pContents">
+				There was a flow that existed in an HDP 2.2 cluster that had to be migrated to GCP. The source system had tables in Hive. The business logic was generally in pig and shell script. It had to be migerated to Big Query and Big Table. There were minor changes to business logic.
 			</div>
 		</div>
 	</div>
+	<div class="pRow">
+	<div class="pLContainer">
+			<h3>Governer</h3>
+			<div class="pContents">
+				It is a trottling framework. There are certain restrictions to the number of hits that an API allows you to make. This framework is to ensure that the number of hits to an endpoint are controlled.
+			</div>
+	</div>
+	
+		<div class="pRContainer">
+		  <h3> GCP Migeration</h3>
+		  <div class="pContents">
+				There was a flow that existed in an HDP 2.2 cluster that had to be migrated to GCP. The source system had tables in Hive. The bussness logic was generally in pig and shell script. It had to be migerated to Big Query and Big Table.
+			</div>
+		</div>
+		<br>
  </div>
+	</div>
+	
+	<br>
+	
 <footer>
   <ul>
     <li><a href="mailto:vatsa.rahul.999@gmail.com">email</a></li>

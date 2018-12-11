@@ -1,6 +1,7 @@
 body {
     margin: 60px auto;
     width: 70%;
+	overflow: scroll;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -45,24 +46,55 @@ ul.posts li {
 .blurb{
     margin:  20px auto 40px;
     text-align: center;
-	overflow: hidden;
+	
 
 }
 .pContents{
 	font-size: 10;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	overflow: scroll;
-	
+	text-align: justify;
+	padding: 10px;
 }
 .pLContainer{
 	font-family:'Helvetica', 'Arial', 'Sans-Serif';
-	background: #071B7C;
+	border: thin;
 	text-decoration-color: aliceblue;
-	width: 50%;
-	color: white;
-	border-radius: 25px;
+	background: #02B8B1;
+	width: 45%;
 	text-align: center;
-	height: 200px;
+	height: 150px;
 	overflow: scroll;
+	float:left;
+
+	
 	
 }
+h3{
+	align-content: center;
+	
+}
+.pRContainer{
+	font-family:'Helvetica', 'Arial', 'Sans-Serif';
+	border: thin;
+	text-decoration-color: aliceblue;
+	background: #02B8B1;
+	width: 45%;
+	text-align: center;
+	height: 150px;
+	overflow: scroll;
+	float:right;
+
+	
+}
+.pRow{
+	width: 100%;
+	margin-bottom: 10px;
+	float:top;
+	height: 170px;
+
+}
+.container{
+	overflow: scroll;
+}
+
