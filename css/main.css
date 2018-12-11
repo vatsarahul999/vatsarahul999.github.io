@@ -70,6 +70,13 @@ ul.posts li {
 	
 	
 }
+ ::-webkit-scrollbar { 
+     display: none; 
+  }
+
+  #element::-webkit-scrollbar { 
+     display: none; 
+  }
 h3{
 	align-content: center;
 	
@@ -86,6 +93,9 @@ h3{
 	float:right;
 
 	
+}
+::-webkit-scrollbar { 
+    display: none; 
 }
 .pRow{
 	width: 100%;
