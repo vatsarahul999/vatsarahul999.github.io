@@ -10,50 +10,80 @@
   <ul>
     <li><a href="/">Home</a></li>
     <li><a href="#abt" class="abt">About</a></li>
+<!--
     <li><a href="/cv">CV</a></li>
     <li><a href="/blog">Blog</a></li>
+-->
   </ul>
 </nav>
-	<div class="blurb">
-    <h1>Rahul Vatsa</h1>
-    <p id="abt">I am a software engineer. I have been working on both backend and frontend technologies.I am a full stack developer. I have  worked on various mid-sized and large  applications and data engineering. </p>
-  </div>
+<div class="blurb">
+  <h1>Rahul Vatsa</h1>
+  <p id="abt">I am a software engineer. I have been working on both backend and frontend technologies.I am a full stack developer. I have  worked on various mid-sized and large  applications and data engineering. </p>
+</div>
 <div class="container">
-  <div class="pRow">
-	<div class="pLContainer">
-			<h3> Meru - A Web Scarping Framework</h3>
-			<div class="pContents">
-				It is a framework that consumes a job. (A job in this project is webpage scrapping task /API hit/bing/google search.etc) Makes a HTTP call to the respective source and then depending on the kind of job use css selectors, populating Models, basic data validations,etc.
-			</div>
+<div class="pRow">
+  <div class="pLContainer">
+    <h3> Meru - A Web Scarping Framework</h3>
+    <div class="pContents"> It is a framework that consumes a job. (A job in this project is webpage scrapping task /API hit/bing/google search.etc) Makes a HTTP call to the respective source and then depending on the kind of job use css selectors, populating Models, basic data validations,etc. </div>
+  </div>
+  <div class="pRContainer">
+    <h3> GCP Migeration</h3>
+    <div class="pContents"> There was a flow that existed in an HDP 2.2 cluster that had to be migrated to GCP. The source system had tables in Hive. The business logic was generally in pig and shell script. It had to be migerated to Big Query and Big Table. There were minor changes to business logic. </div>
+  </div>
+</div>
+<div class="pRow">
+  <div class="pLContainer">
+    <h3>Governer</h3>
+    <div class="pContents"> It is a trottling framework. There are certain restrictions to the number of hits that an API allows you to make. This framework is to ensure that the number of hits to an endpoint are controlled. </div>
+  </div>
+  <div class="pRContainer">
+    <h3> eCat</h3>
+    <div class="pContents"> It is a product on the hadoop eco system that allows the user to effectively manage the various flows in the hadoop ecosystem.product. It has the following modules:
+      <ul>
+        <li>Data Profiling (Basic): It gives the user an idea of the data present in the system. The user can
+          analyse the data present in a table. It gives the user a basic interpretation of the data present in the
+          system</li>
+        <li> Advance Data Profiling: It allows the user to have customised check on the data.</li>
+        <li> Reverse Engineering: It allows the user to import a system from any system(Hive, Netezza,
+          Teradata, etc ) into eCat.</li>
+        <li>Forward Engineering: It allows the user to create a new table on hive. There is process where
+          the BA first defines the attributes that characterise the table. Then, using a number of
+          attributes the BA creates a Logical table. Then, the DA would create actual physical tables. These
+          tables can pushed to Hive.</li>
+        <li>Forward Engineering using CSV upload.: The above process was difficult for large tables. Hence
+          this process was automated for large tables. Here we have a templated that the user can fill and we
+          parse the information and create the appropriate tables with meta-data.</li>
+        <li>Data Lineage: It gets the details for the flow of data in the Hadoop ecosystems. It gets all the
+          information from various sources (based on the technology used) and aggregates all information.
+          7.Delta Report: It gets the difference in the data in eCat compared to the actual data in the
+          datastore. It allows the user eCat to the actual data in the datastore.</li>
+        <li>Search: It allows the user search the data in eCat. There are 3 types of search supported in eCat.
+          First, simple sql search it allows the user to search data in eCat. Second, tag based search it allows
+          the user to search for a tag and get all entities that have been tagged by the tag. Third, free text
+          search it allows the user to search data using regular expression, fuzzy search and boolean search.</li>
+        <li> Source To Target Mapping: It is feature that allows the user create source to target mapping for
+          tables. It also enables the user to auto generate code for this source to target mapping. </li>
+      </ul>
+    </div>
+  </div>
+  <br>
+</div>
+<div class="pRow">
+  <div class="pLContainer">
+    <h3>Hadoop Inspector</h3>
+    <div class="pContents"> It is a utility that checks if the pig scripts are a following the best coding practices. It has been developed
+      completely in Java. It can detect and identify 36 different coding patterns that, though compile successfully,
+      are not to be used as they are not the best way to code in pig and better alternatives exist.</div>
+  </div>
+  <div class="pRContainer">
+    <h3>Doc Creator</h3>
+    <div class="pContents">
+      It parses the comments present in files and adds them to a README.txt file.
+      </div>
 	</div>
-	
-		<div class="pRContainer">
-		  <h3> GCP Migeration</h3>
-		  <div class="pContents">
-				There was a flow that existed in an HDP 2.2 cluster that had to be migrated to GCP. The source system had tables in Hive. The business logic was generally in pig and shell script. It had to be migerated to Big Query and Big Table. There were minor changes to business logic.
-			</div>
-		</div>
-	</div>
-	<div class="pRow">
-	<div class="pLContainer">
-			<h3>Governer</h3>
-			<div class="pContents">
-				It is a trottling framework. There are certain restrictions to the number of hits that an API allows you to make. This framework is to ensure that the number of hits to an endpoint are controlled.
-			</div>
-	</div>
-	
-		<div class="pRContainer">
-		  <h3> GCP Migeration</h3>
-		  <div class="pContents">
-				There was a flow that existed in an HDP 2.2 cluster that had to be migrated to GCP. The source system had tables in Hive. The bussness logic was generally in pig and shell script. It had to be migerated to Big Query and Big Table.
-			</div>
-		</div>
-		<br>
- </div>
-	</div>
-	
-	<br>
-	
+  </div>
+</div>
+<br>
 <footer>
   <ul>
     <li><a href="mailto:vatsa.rahul.999@gmail.com">email</a></li>
